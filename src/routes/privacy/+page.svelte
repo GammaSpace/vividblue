@@ -1,5 +1,5 @@
 <script>
-  const logoImg = "/src/img/vividblue_logo.png";
+  const logoImg = "/img/vividblue_logo.png";
 
   let yPos = 0;
 
