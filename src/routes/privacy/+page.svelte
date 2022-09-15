@@ -8,9 +8,9 @@
 
 <svelte:window bind:scrollY={yPos}/>
 
-<div class="w-full bg-top overflow-hidden">
+<div class="w-full bg-aqua bg-top overflow-hidden">
   <div class="relative w-full h-full text-white flex flex-wrap justify-center items-center px-8 py-16 md:py-8 xl:py-4">
-    <div class="absolute -z-10 bg-black brightness-[95%] top-0 left-0 opacity-[85%] bg-cover bg-mainBG bg-top scale-[103%] blur-[2.5px] w-full h-full"></div>
+    <div class="absolute z-0 bg-aqua brightness-[95%] top-0 left-0 opacity-[85%] bg-cover bg-mainBG bg-top scale-[103%] blur-[2px] w-full h-full bg-banner-grad"></div>
     <div class="w-full text-8xl text-center">
       <img style="transform: translate(0,{-yPos * 0.2}px)" src={logoImg}/>
     </div>

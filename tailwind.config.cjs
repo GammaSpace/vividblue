@@ -21,7 +21,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        mainBG: "url('/src/img/theganglogoless_sm.png')",
+        mainBG: "url('/img/theganglogoless_sm.png')",
       },
     }
   },
