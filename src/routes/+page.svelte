@@ -39,24 +39,24 @@
   ]
 
   const scrshots = [
-    "/src/img/test_img.jpeg",
-    "/src/img/scr_shot2.png",
-    "/src/img/scr_shot3.png",
-    "/src/img/scr_shot5.png",
-    "/src/img/scr_shot7.png",
+    "/img/test_img.jpeg",
+    "/img/scr_shot2.png",
+    "/img/scr_shot3.png",
+    "/img/scr_shot5.png",
+    "/img/scr_shot7.png",
   ]
 
   const gifs = [
-    "/src/img/shotgunspikecombo_512px.gif",
-    "/src/img/curve_shot_512px.gif",
+    "/img/shotgunspikecombo_512px.gif",
+    "/img/curve_shot_512px.gif",
   ]
 
-  const mainBG = "/src/img/theganglogoless_sm.png";
-  const logoImg = "/src/img/vividblue_logo.png";
-  const dwLogoImg = "/src/img/duskwitch_logo.png";
-  const dwColImg = "/src/img/gunpoint.png";
-  const bioBanner = "/src/img/herographic.png"; 
-  const founderImg = "/src/img/nateavatar.png"; 
+  const mainBG = "/img/theganglogoless_sm.png";
+  const logoImg = "/img/vividblue_logo.png";
+  const dwLogoImg = "/img/duskwitch_logo.png";
+  const dwColImg = "/img/gunpoint.png";
+  const bioBanner = "/img/herographic.png"; 
+  const founderImg = "/img/nateavatar.png"; 
 
   let showDropdown = false;
   function mobileMenu() {
