@@ -1,0 +1,86 @@
+/*global css*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer base {
+  p {
+    @apply text-bodyText font-p
+  }
+
+  h1 {
+  }
+
+  h3 {
+    @apply font-normal text-dark text-3xl;
+  }
+
+  h2 {
+    @apply font-h1 text-4xl text-colH2 font-bold sm:text-5xl
+  }
+
+  h4 {
+    @apply font-h4 text-dark font-normal text-xl md:text-2xl 
+  }
+
+  hr {
+    @apply border-brown mx-auto w-[90%] 
+  }
+
+  .bg-img-blur {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  }
+
+  .circle {
+    @apply bg-cerulean h-full w-full rounded-[50%]
+  }
+
+  .smooth-menu {
+    transition: max-height 0.1s ease-out;
+  }
+
+  .parallax-container {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .parallax-section {
+    transform: translateZ(-1px) scale(2);
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
+
+  .bio-mask {
+    -webkit-mask-image: radial-gradient(circle, black 65%, rgba(0, 0, 0, 0.0)  65%);
+    mask-image: radial-gradient(circle, black  65%, rgba(0, 0, 0, 0.0)  65%);
+  }
+  
+  .bg-banner-grad {
+    -webkit-mask-image: linear-gradient( rgba(141,163,196,1.0) 70%, rgba(141,163,196,0.0) 100%);
+    mask-image: linear-gradient( rgba(141,163,196,1.0) 70%, rgba(141,163,196,0.0) 100%);
+  }
+
+  .mce_inline_error {
+    @apply text-red-400;
+    color: #F00;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .bio-mask {
+      -webkit-mask-image: radial-gradient(circle, black 60%, rgba(0, 0, 0, 0.0) 60%);
+      mask-image: radial-gradient(circle, black 60%, rgba(0, 0, 0, 0.0) 60%);
+    }
+  }
+}
