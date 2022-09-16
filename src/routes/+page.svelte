@@ -34,7 +34,7 @@
   ]
 
   const theLatest = [
-    ["VIVIDBLUE founder Nate Tannis speaking at GDOC 2020 on September 17", "https://app.swapcard.com/event/2022-game-devs-of-color-expo/person/RXZlbnRQZW9wbGVfMTU5NDMwNjc="],
+    ["VIVIDBLUE founder Nate Tannis speaking at GDOC 2022 on September 17", "https://app.swapcard.com/event/2022-game-devs-of-color-expo/person/RXZlbnRQZW9wbGVfMTU5NDMwNjc="],
     ["DUSKWITCH at Gradient Convergence 2022 on Steam", "https://store.steampowered.com/app/1624000/Duskwitch_Heroic_Soul/"],
   ]
 
@@ -160,11 +160,11 @@
                   <input type="email" value="" name="EMAIL" class="required email max-w-[100%] sm:max-w-[75%] text-2xl px-1 h-[40px]" id="mce-EMAIL" required>
                   <input type="submit" class="cursor-pointer hover:bg-cerulean hover:text-white rounded-xl block sm:float-right px-3 ml-0 mt-2 sm:mt-0 h-[40px] bg-white uppercase" value="submit" id="mc-embedded-subscribe"/>
                 </div>
-                <span id="mce-EMAIL-HELPERTEXT" class="helper_text text-red-400"></span>
+                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
               </div>
-              <div id="mce-responses" class="clear foot text-red-400">
-                <div class="response text-red-400" id="mce-error-response" style="display:none"></div>
-                <div class="response text-red-400" id="mce-success-response" style="display:none"></div>
+              <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
               </div>    
             </form>
           </div>
